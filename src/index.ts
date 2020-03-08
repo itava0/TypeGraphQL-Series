@@ -7,6 +7,7 @@ import { RegisterResolver } from "./modules/user/Register"
 
 
 const main = async () => {
+  
   await createConnection();
 
   const schema = await buildSchema({
