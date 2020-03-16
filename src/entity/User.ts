@@ -26,6 +26,7 @@ export class User extends BaseEntity {
     @Column("text", { unique: true })
     email: string;
 
+    //Skip the Field() decorator so We don't exposed the user password in our graphQL schema.
     @Column()
     password: String;
 
