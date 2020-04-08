@@ -34,6 +34,6 @@ export class User extends BaseEntity {
 
     //Skip the Field() decorator so We don't want to exposed the user password in our graphQL schema.
     @Column()
-    password: String;
+    password: string;
 
 }
