@@ -11,7 +11,7 @@ import { redis } from "./redis";
 import { LoginResolver } from "./modules/user/Login";
 import { MeResolver } from "./modules/user/Me";
 
-
+//Using Express and Appollo to intaract with graphQL
 
 const main = async () => {
   
